@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.vai_vai_traders">
+    <uses-permission android:name="android.permission.INTERNET"/> <!-- Add this -->
    <application
         android:label="vai_vai_traders"
         android:name="${applicationName}"
